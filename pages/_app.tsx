@@ -6,7 +6,7 @@ import type { AppProps } from 'next/app'
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Modal isOpen />
+      <Modal isOpen title='Test Modal' />
       <Layout>
       <Component {...pageProps} />
     </Layout>
